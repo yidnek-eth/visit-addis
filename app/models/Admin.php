@@ -253,5 +253,34 @@ class Admin {
     }
 
 
+    public function findAllUsers() {
+        $this->db->query('SELECT * FROM users');
+
+        $results = $this->db->resultSet();
+
+        return $results;
+    }
+
+    public function findFilteredUsers($valueTosearch) {
+        $question = "%".$valueTosearch. "%";
+        $this->db->query('SELECT * FROM users WHERE username LIKE :username OR email LIKE :email');
+
+        $this->db->bind(':username', $question);
+        $this->db->bind(':email', $question);
+        $results = $this->db->resultSet();
+
+        return $results;
+    }
+
+    public function findFilteredEmployees($valueTosearchEmployee) {
+        $question = "%".$valueTosearchEmployee. "%";
+        $this->db->query('SELECT * FROM employees WHERE username LIKE :username OR email LIKE :email');
+
+        $this->db->bind(':username', $question);
+        $this->db->bind(':email', $question);
+        $results = $this->db->resultSet();
+
+        return $results;
+    }
 
 }
