@@ -4,7 +4,7 @@
         <div class="left">
           <div class="logo"><p><span>Visit</span>Addis</p></div>
           <div class="search_bar">
-              <input type="text" placeholder="Search">
+              <!-- <input type="text" placeholder="Search"> -->
           </div>
       </div> 
       <div class="right">
@@ -37,8 +37,8 @@
         <li>
             <a href="<?php echo URLROOT; ?>/pages/contact">Contact</a>
         </li>
-        <li><a href="<?php echo URLROOT; ?>/posts">Blog</a></li>
-        <li><a href="#">Map</a></li>
+        <!-- <li><a href="<?php echo URLROOT; ?>/posts">Blog</a></li> -->
+        <!-- <li><a href="#">Map</a></li> -->
         <li><a href="<?php echo URLROOT; ?>/users/employeeLogin">Employee Login</a></li>
       </ul>
   </div>

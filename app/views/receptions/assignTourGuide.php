@@ -12,12 +12,12 @@
     <div class="container center" id="contain">
 
             <div id="entry">
-                <p>Available Guides</p>
+                <p style="color: white; font-size: 28px; text-decoration: underline; font-weight: bold;">Available Guides</p>
                 <?php foreach($data['guides'] as $guide): ?>
                     <div class="container-item">
-                        <p><?php echo $guide->username; ?></p>
-                        <form action="<?php echo URLROOT . "/receptions/assignTourGuide/". $data['ticketInfo']->id ?>" method="POST">
-                        <input type="submit" name="assign" value="Assign" class="btn" style="color: black; width: 150px">
+                        <p style="color: white; font-size: 20px;"><?php echo $guide->username; ?></p>
+                        <form action="<?php echo URLROOT . "/receptions/assignGuide/" . $data['ticket']->id . "/" . $guide->id ;?>" method="POST">
+                            <input type="submit" name="assign" value="Assign" class="btn orange" >
                         </form>
                     </div>
                     

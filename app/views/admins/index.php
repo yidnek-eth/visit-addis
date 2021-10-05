@@ -57,7 +57,7 @@
 
             <div class="panel panel-default">
               <div class="panel-heading main-bgcolors">
-                <h3 class="panel-title">Laest Users</h3>
+                <h3 class="panel-title">Latest Users</h3>
               </div>
               <div class="panel-body">
                 <table class="table table-striped table-hover">
@@ -224,7 +224,7 @@
 ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="<?php echo URLROOT; ?>/public/javascript/jquery.min.js"></script>
     <script src="<?php echo URLROOT;?>/public/javascript/bootstrap.min.js"></script>
     <script src="<?php echo URLROOT;?>/public/javascript/main.js"></script>
     <script>

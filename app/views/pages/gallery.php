@@ -10,47 +10,47 @@
     <div class="container-gallery-pseudo">
     <div class="container-gallery" >
   <figure class="gallery-item">
-    <img class="content" src="https://assets.codepen.io/12005/windmill.jpg" alt="A windmill" />
+    <img class="content" src="<?php echo URLROOT;?>/public/img/photo_2021-09-28_08-01-50.jpg" alt="A windmill" />
     <figcaption><a href="#">1</a></figcaption>
   </figure>
   <figure class="landscape">
-    <img src="https://assets.codepen.io/12005/suspension-bridge.jpg" alt="The Clifton Suspension Bridge" />
+    <img src="<?php echo URLROOT;?>/public/img/photo_2021-09-28_08-01-58.jpg" alt="The Clifton Suspension Bridge" />
     <figcaption><a href="#">2</a></figcaption>
   </figure>
   <figure>
-    <img src="https://assets.codepen.io/12005/sunset.jpg" alt="Sunset and boats" />
+    <img src="<?php echo URLROOT;?>/public/img/photo_2021-09-28_08-02-09.jpg" alt="Sunset and boats" />
     <figcaption><a href="#">3</a></figcaption>
   </figure>
   <figure>
-    <img src="https://assets.codepen.io/12005/snowy.jpg" alt="a river in the snow" />
+    <img src="<?php echo URLROOT;?>/public/img/photo_2021-09-28_08-02-13.jpg" alt="a river in the snow" />
     <figcaption><a href="#">4</a></figcaption>
   </figure>
   <figure class="landscape">
-    <img src="https://assets.codepen.io/12005/bristol-balloons1.jpg" alt="a single checked balloon" />
+    <img src="<?php echo URLROOT;?>/public/img/photo_2021-09-28_08-02-16.jpg" alt="a single checked balloon" />
     <figcaption><a href="#">5</a></figcaption>
   </figure>
   <figure>
-    <img src="https://assets.codepen.io/12005/dog-balloon.jpg" alt="a hot air balloon shaped like a dog" />
+    <img src="<?php echo URLROOT;?>/public/img/photo_2021-09-28_08-02-23.jpg" alt="a hot air balloon shaped like a dog" />
     <figcaption><a href="#">6</a></figcaption>
   </figure>
   <figure>
-    <img src="https://assets.codepen.io/12005/abq-balloons.jpg" alt="View from a hot air balloon of other balloons" />
+    <img src="<?php echo URLROOT;?>/public/img/photo_2021-09-28_08-02-23.jpg" alt="View from a hot air balloon of other balloons" />
     <figcaption><a href="#">7</a></figcaption>
   </figure>
   <figure>
-    <img src="https://assets.codepen.io/12005/disney-balloon.jpg" alt="a balloon fairground ride" />
+    <img src="<?php echo URLROOT;?>/public/img/photo_2021-09-28_08-02-26.jpg" alt="a balloon fairground ride" />
     <figcaption><a href="#">8</a></figcaption>
   </figure>
   <figure class="landscape">
-    <img src="https://assets.codepen.io/12005/bristol-harbor.jpg" alt="sunrise over a harbor" />
+    <img src="<?php echo URLROOT;?>/public/img/skylight.jpg" alt="sunrise over a harbor" />
     <figcaption><a href="#">9</a></figcaption>
   </figure>
   <figure>
-    <img src="https://assets.codepen.io/12005/bristol-balloons2.jpg" alt="three hot air balloons in a blue sky" />
+    <img src="<?php echo URLROOT;?>/public/img/1630482597_andinet.jpg" alt="three hot air balloons in a blue sky" />
     <figcaption><a href="#">10</a></figcaption>
   </figure>
   <figure>
-  <img src="https://assets.codepen.io/12005/toronto.jpg" alt="the Toronto light up sign at night" />
+  <img src="<?php echo URLROOT;?>/public/img/1632806550_photo_2021-09-28_08-02-26.jpg" alt="the Toronto light up sign at night" />
     <figcaption><a href="#">11</a></figcaption>
   </figure>
 </div>

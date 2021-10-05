@@ -18,7 +18,7 @@
                     <?php echo $data['tourismSite']->name; ?>
                 </h1>
             
-                <img src="<?php echo URLROOT.'/public/img/'. $data['tourismSite']->image; ?>" alt="" class="imageDetails">
+                <img src="<?php echo URLROOT.'/public/img/'. $data['tourismSite']->image; ?>" alt="" class="imageDetails" style="width:1500px;">
             
 
             

@@ -127,8 +127,44 @@ class Admins extends Controller {
     }
 
     public function sites() {
+         $data = [
+             'allUsers'=>'',
+             'filteredUsers'=>'',
+             'allEmployees'=>'',
+             'filteredEmployees'=>''
+         ]; 
+         $allUsers = $this->adminModel->findAllUsers();
+         $valueTosearch = $_POST['valueToSearch'];
+         $filteredUsers = $this->adminModel->findFilteredUsers($valueTosearch);
+        if(isset($_POST['filter']) OR $_POST['filter'] == '') {
+            $data = ['allUsers'=>'',
+                'filteredUsers'=>$filteredUsers
+        ];
 
-        $this -> view('admins/sites');
+        $this -> view('admins/sites', $data);
+
+        } else {
+            
+            $data = ['allUsers' => $allUsers,
+                'filteredUsers' => ''
+            ];
+
+            $this -> view('admins/sites', $data);
+        }
+
+        $valueTosearchEmployee = $_POST['valueToSearchEmployee'];
+        $allEmployees = $this->db->findAllEmployees();
+        $filteredEmployees = $this->db->findFilteredEmployees($valueTosearchEmployee);
+        if(isset($_POST['filterEmployee']) OR $_POST['filterEmployee'] == ''){
+            $data = ['allEmployees' => $allEmployees];
+            $this -> view('admins/sites', $data);
+
+        } else {
+            $data = ['filteredEmployees'=> $filteredEmployees];
+            $this -> view('admins/sites', $data);
+        }
+
+        
     }
 
     public function manageUsers() {

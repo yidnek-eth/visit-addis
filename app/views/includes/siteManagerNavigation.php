@@ -20,12 +20,12 @@
     </div>
     <div class="bottom_nav" id="tourguide-bottom-nav">
       <ul>
-        <li><a href="<?php echo URLROOT; ?>/tourGuides">Home</a></li>
+        <li><a href="<?php echo URLROOT; ?>/siteManagers">Home</a></li>
         <li>
-            <a href="<?php echo URLROOT; ?>/tourGuides/viewTourist">View Assigned Tourist</a>
+            <a href="<?php echo URLROOT; ?>/siteManagers/viewReport">View Guide Report</a>
         </li>
         <li>
-            <a href="<?php echo URLROOT; ?>/tourGuides/generateReport">Generate Report</a>
+            <a href="<?php echo URLROOT; ?>/siteManagers/ticketReport">Ticket Report</a>
         </li>
        
       </ul>

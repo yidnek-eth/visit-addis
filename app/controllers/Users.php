@@ -240,6 +240,6 @@ class Users extends Controller {
         unset($_SESSION['username']);
         unset($_SESSION['email']);
         unset($_SESSION['role']);
-        header('location:' . URLROOT . '/users/login');
+        header('location:' . URLROOT . '/pages/');
     }
 }
